@@ -38,9 +38,9 @@ if (status1 != "") {
     utterThis = new SpeechSynthesisUtterance(input + "found");
     synth.speak(utterThis);
     }
+}
     else {
     document.getElementById("status1").innerHTML = input + "not found";
-    }
     }
 }
 }
